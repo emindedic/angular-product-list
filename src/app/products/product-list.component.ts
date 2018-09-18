@@ -84,7 +84,7 @@ export class ProductListComponent implements OnInit{
     // I want to set default values
      constructor() {
         this.filteredProducts = this.products;
-        this.listFilter = "cart";
+        this.listFilter = "";
      }
 
       performFilter(filterBy: string): IProduct[] {
@@ -94,7 +94,7 @@ export class ProductListComponent implements OnInit{
       }
 
       onRatingClicked(message: string): void {
-          this.pageTitle = "Producet List: " + message
+          this.pageTitle = "Product List: " + message;
       }
 
       //button image
