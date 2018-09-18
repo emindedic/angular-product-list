@@ -57,7 +57,17 @@ export class ProductService {
               "price": 35.95,
               "starRating": 4.6,
               "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
-            }
+            },
+            {
+                "productId": 11,
+                "productName": "Game Controller",
+                "productCode": "GMG-0043",
+                "releaseDate": "October 15, 2018",
+                "description": "Standard two-button",
+                "price": 15.95,
+                "starRating": 4.6,
+                "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
+              }
           ];
 
     }
