@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
 })
 
 export class WelcomeComponent {
-    public pageTitle = "Welcome my friends";
+
 }
